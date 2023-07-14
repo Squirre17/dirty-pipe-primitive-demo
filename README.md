@@ -1,7 +1,11 @@
 ![成功结果](assets/success.png)
 
+
+
 # 几个问题的解决
-- pipe的续写机制 ?
+- pipe的续写机制?
+第一次读写pipe 然后splice是接在第二个pipe_buffer
+
 - 怎么确定喷到了哪个pipe_buffer ?
 pipe往head上写 从tail开始读
 ```
@@ -54,7 +58,8 @@ $7 = 1
 可以通过读写操作来 
 
 
-- 可不可以改pipe_buffer的offset ?
+- 可不可以改pipe_buffer的offset?
+用read(pipe_fd...) 去改
 
 # setuid 编译
 
