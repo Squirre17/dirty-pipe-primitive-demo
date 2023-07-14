@@ -1,5 +1,5 @@
 ![成功结果](assets/success.png)
-
+注入到ELF入口 的_start 而不需要覆盖整个ELF文件（我这里由于qemu中的busybox 做了点适配 用busybox去起sh
 
 
 # 几个问题的解决
