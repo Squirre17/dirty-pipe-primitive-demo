@@ -1,0 +1,5 @@
+target remote :1234
+set context-section regs disasm code expressions
+set context-source-code-lines 20
+add-symbol-file vuln.ko 0xffffffffc0000000
+
