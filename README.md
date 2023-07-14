@@ -1,3 +1,4 @@
+![成功结果](assets/success.png)
 
 # 几个问题的解决
 - pipe的续写机制 ?
